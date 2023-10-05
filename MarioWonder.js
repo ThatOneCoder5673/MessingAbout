@@ -1,4 +1,7 @@
 
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
 function ClickedButt() {
 document.getElementById("ShipHome").className = "AltShipHome";
 }
@@ -49,3 +52,11 @@ function SwitchImg7() {
 document.getElementById("MarioImg").src = document.getElementById("Img_7").src;
 document.getElementById("MarioImg").classList = "fullimg";
 }
+class Car extends React.Component {
+    render() {
+      return <h2>Hi, I am a Car!</h2>;
+    }
+  }
+  const container = document.getElementById('root');
+const root = ReactDOM.createRoot(container);
+root.render(<Car />);

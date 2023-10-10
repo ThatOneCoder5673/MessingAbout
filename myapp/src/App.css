@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+@media screen and (max-width: 905px) {
+  div.gmebar a.split {
+     display: none;
+   }
+ }
+ @media screen and (max-width: 1100px) {
+   .column {
+     width: 100%;
+   }
+ }
+ @media only screen and (max-width: 1000px) {
+  div.gmebar a.searchbar {
+    width: 200%;
+   }
+ }
+ * {
+   box-sizing: border-box;
+ }
+ .graybar {
+   background-color: #272627;
+   overflow: hidden;
+   text-align: center;
+   }
+ .graybar a {
+   float: left;
+   text-align: center;
+      padding: 8px 5px;
+   text-decoration: none;
+   color: white;
+   margin-top: 1px;
+   margin-bottom: 0px;
+   margin-left: 20xp;
+   margin-right: 20px;
+   font-size: 12px;
+   font-family: Poppins;
+   background-color: black;
+   }
+   
+ .graybar a.sidegray {
+   float: right;
+      text-align: center;
+   padding-top: 8px; 
+   padding-bottom: 8px;
+   padding-left: 50px;
+   padding-right: 50px;
+   font-size: 12px;
+   margin-top: 0px;
+   margin-bottom: 0px;
+   margin-left: 10px;
+   margin-right: 0px;
+   background-color: #272627;
+  
+  }
+  .llogo {
+    width: 60%;
+    height: auto;
+    margin-top: 10px;
+ 
+  }
+  
+  .sidegray:hover {
+    color: aqua;
+    }
+  .hovergreen:hover {
+    color: lime;
+ }
+   .hoverpink:hover {
+    color: pink;
+ }
+   .clickaqua:active {
+    color: aqua;
+   
+ }
+ 
+   .clicklime:active {
+    color: lime;
+   
+ }
+ .row:after {
+   display: table;
+   clear: both;
+   content: "";
+ }
+  .sidegrayicon { 
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    top: 3px;
+    
+  }
+  
+  .rainbowbar {
+    overflow: hidden;
+    background-image: url("https://media.gamestop.com/i/gamestop/ProWeek_5PercentExtraOffPurchase_WK27_1760x50_Sitewide_Strip_D.webp");
+    background-size: cover;
+    text-align: center;
+   
+  }
+ .rainbowbar a {
+   font-family: Poppins;
+   font-size: 15px;
+   text-align: center;
+   display: inline-block;
+   color: white;
+   text-decoration: none;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   }
+ .gmebar {
+   overflow: hidden;
+   text-align: center;
+   border-bottom: 1px solid black;
+   height: 15%;
+   position: sticky;
+   top: 0;
+   z-index: 5;
+   background-color: white;
+  
+ }
+ .gmebar a {
+   float: left;
+   text-align: center;
+    padding-top: 5px;
+   padding-bottom: 5px;
+   
+ }
+ .inline {
+   font-family: Poppins; 
+   font-size: 12px; 
+   margin-left: 10px;
+ 
+   }
+ .searchbar {
+   font-family: Poppins;
+   font-size: 15px;
+   text-align: left;
+   border: none;
+   background-color: WhiteSmoke;
+   color: grey;
+   height: 28px;
+   overflow: hidden;
+   width: 180%;
+   display: flex;
+   flex-direction: row;
+        }
+
+   .searcharea {
+    display: inline-flex;
+    background-color: inherit;
+    margin-top: 10px;
+   }
+ 
+  .searchbutt {
+    background-color: WhiteSmoke;
+    display: inline-block;
+    font-size: 10px;
+    border: none;
+  }
+ .gmebar a.split {
+   float: right;
+    }
+ 
+ .cart {
+   width: 24px;
+   height: 8%;
+   
+ }
+  .column2gr {
+   float: left;
+   width: 50%;
+   background-color: WhiteSmoke;
+   z-index: 1;
+   text-align: center;
+   height: 548px;
+   }
+   .column2small {
+   float: left;
+   width: 8%;
+   background-color: WhiteSmoke;
+   z-index: 1;
+   text-align: center;
+   height: 548px;
+   }
+    .column2 {
+   float: left;
+   width: 35%;
+   }
+  .mariowonder {
+    width: 290px;
+    height: 490px;
+    object-fit: cover;
+    object-position: 48% 0%;
+    border-radius: 8px;
+    position: relative;
+    text-align: center-right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  
+  .sideimg {
+   height: 55px;
+   width: 60px;
+   object-fit: contain;
+   padding: 0px 0px;
+   position: relative;
+   z-index: 1;
+   background-color: white;
+   border-radius: 8px;
+   text-align: center;
+   margin-bottom: 3px;
+   }
+   
+   .mariosideimg {
+   height: 55px;
+   width: 60px;
+   object-fit: contain;
+   padding: 10px 10px;
+   position: relative;
+   z-index: 1;
+   background-color: white;
+   border-radius: 8px;
+   text-align: center;
+   margin-bottom: 3px;
+   margin-top: 5px;
+   }
+   .whiteboxtall {
+    height: 40px;
+    width: 50px;
+    z-index: -1;
+    background-color: white;
+   }
+   
+   .whitebox {
+    height: 5px;
+    width: 50px;
+    z-index: -1;
+    background-color: white;
+   }
+  
+  .imgcont {
+   overflow: hidden;
+   white-space: nowrap;
+  }
+ .picarrow {
+   color: white;
+   z-index: 2;
+   font-size: 35px;
+   text-align: left;
+   
+ }
+ .purplebox {
+    padding: 7px; 
+    margin: 0;
+    word-wrap: break-word; 
+    position: relative; 
+    display: flex;
+    height: auto;
+    width: 80%;
+    background-color: #6a43f9; 
+    border-radius: 5px;
+    text-align: left;
+    max-width: 300px;
+ }
+ .smbcircle {
+   background-color: black;
+   border-radius: 25px;
+   height: 40px;
+   width: auto;
+   
+ }
+ .flexbox {
+   display: flex;
+   flex-wrap: wrap;
+   word-wrap: break-word;
+ }
+ .slightind {
+   position: relative;
+   left: 20px;
+ }
+ .centeralign {
+ text-align: center;
+ }
+ .hidebutt {
+  display: none;
+  
+ }
+ .newbuttons2 {
+   border: solid 1px WhiteSmoke;
+   background-color: WhiteSmoke;
+   font-family: poppins;
+   padding-bottom: 0px;
+   padding-left: 14px;
+   padding-right: 10px;
+   padding-top: 0px;
+   word-wrap: break-word;
+   width: 32%;
+   height: 145px;
+   font-size: 14px;
+   display: inline-flex;
+   text-align: left;
+   border-radius: 8px;
+   position: relative;
+   cursor: pointer;
+   overflow: visible;
+ }
+ .newbuttons3 {
+   text-align: left;
+   font-size: 22px;
+   color: grey;
+   display: inline-flex;
+   flex-wrap: wrap;
+   margin: 0;
+ }
+ .AltShipHome {
+   border: solid 2px black;
+   background-color: white;
+   font-family: poppins;
+   padding-bottom: 0px;
+   padding-left: 14px;
+   padding-right: 14px;
+   padding-top: 0px;
+   word-wrap: break-word;
+   width: 29%;
+   height: 145px;
+   font-size: 14px;
+   display: inline-flex;
+   text-align: left;
+   margin-left: 1px;
+   margin-right: 1px;
+   border-radius: 8px;
+   position: relative;
+   cursor: pointer;
+   
+ }
+ .fullimg {
+    width: 98%;
+    height: 533px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center-right;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 6px;
+    margin-left: 6px;
+    object-fit: contain;
+    vertical-align: middle;
+ }
+ .blackoutline {
+   border: solid 1px black;
+ }
+ 

@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import ReactDOM from 'react-dom/client';
 
 function ClickedButt() {
@@ -52,6 +51,8 @@ function SwitchImg7() {
 document.getElementById("MarioImg").src = document.getElementById("Img_7").src;
 document.getElementById("MarioImg").classList = "fullimg";
 }
+import React from 'react';
+import ReactDOM from 'react-dom/client';
 class Car extends React.Component {
     render() {
       return <h2>Hi, I am a Car!</h2>;

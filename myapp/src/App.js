@@ -4,7 +4,8 @@ function App() {
   return (
     <div id="root">
     <MainContent />
-    </div>);
+    </div>
+    );
 }
   function MainContent() {
     return(

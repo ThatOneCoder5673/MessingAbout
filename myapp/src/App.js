@@ -5,7 +5,7 @@ function App() {
   return (
     <div id="root">
     <NavBars />
-    <FavoriteColor />
+    <ClickCounter />
     </div>
     );
 }
@@ -26,27 +26,30 @@ function App() {
     <div className="gmebar">
     <div className="row">
     <a href=" " className="inline" style= {{ FontFace: "Poppins", fontSize: "11px", textAlign: "center", TextDecoration: "none" }}><i style={{ textAlign: "center" }} className="material-icons">density_medium</i>Menu</a>
-    <a href="https://www.gamestop.com/"><img className="llogo" alt="nah" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw3fe7a996/images/svg-icons/logo-gs-mono.svg"/></a>
+    <a href="https://www.gamestop.com/"><img className="llogo" alt="gmelogo" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw3fe7a996/images/svg-icons/logo-gs-mono.svg"/></a>
     <div className="searcharea"><a style= {{textDecoration: 'none'}} href=" "><button className="searchbutt"><i className="material-icons">search</i></button><input className="searchbar" type="text" autocomplete="on" placeholder="Search games, consoles & more"/></a></div>
     </div>
         </div>
-        <button id="showbutt">Click Me</button>
-    </div>);
+            </div>);
     
 }
-function FavoriteColor() {
-  const [color, setColor] = useState("red");
-  const MyArray = ["blue", "pink", "yellow"];
+function ClickCounter() {
+  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <h1>My favorite color is {color}!</h1>
+    <div style={{textAlign: "center"}}>
+      <p>Total: {count}</p>
       <button
         type="button"
-        onClick={() => setColor(MyArray[0])}
-      >Blue</button>
-      
-    </>
+        onClick={() => setCount((a) => a + 1)}
+      >+</button>
+      <button
+      type="button"
+      onClick={() => setCount((a) => a - 1)}>-</button>
+      <button
+        type="button"
+        onClick={() => setCount((a) => a = 0)}>Reset</button>
+          </div>
   )
 }
 

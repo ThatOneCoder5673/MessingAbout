@@ -355,4 +355,12 @@
    border: solid 1px black;
  }
  
+ .sidegray {
+  font-size: 11px; 
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+ }
  

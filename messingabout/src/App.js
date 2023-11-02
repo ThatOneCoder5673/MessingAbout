@@ -2,7 +2,7 @@ import './App.css';
 import './BuckBunny.js';
 import './ClickCounter.js';
 import './NavBar.js';
-import React, { useState } from "react";
+import React from 'react';
 
 function App() {
   return (

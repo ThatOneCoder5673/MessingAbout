@@ -1,9 +1,10 @@
-    <div id="MainCon">
+    function NavBar() { return (
+     <div id="MainCon">
      <div className="graybar">
       <div className="row">
     <a className="hoverpink" style= {{ textAlign: "center"}} href=" ">FREE 1-3 Day Shipping Over $79</a>
     <a style= {{ Display: "inline-flex", texAlign: "right" }} className="sidegray hovergreen clickaqua" href ="https://www.gamestop.com/stores/?showMap=true&horizontalView=true&isForm=true"><i className="material-icons sidegrayicon">storefront</i>{"\n"}Your Store</a>
-    <a style= {{ Display: "inline-flex", texAlign: "right" }} className="sidegray clicklime" href= "https://www.gamestop.com/orders/"><i className="material-icons sidegrayicon">assignment</i>{"\n"}Track Order</a>
+    <a style= {{ Display: "inline-flex", texAlign: "right" }} className="sidegray clicklime" href= "https://www.gamestop.com/orders/"><i className="material-icons sidegrayicon">assignment</i><br></br>Track Order</a>
       </div>
      </div>
     <div className="rainbowbar">
@@ -20,5 +21,6 @@
        </div>
       </div>
     </div>
-    </div>);
-    
+    </div>
+    )
+    }

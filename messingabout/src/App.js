@@ -9,7 +9,6 @@ function App() {
   return (
     <div id="root">
       <NavBar />
-     <p>Hello New Friend</p>
       <Bunny />
       <Style />
       <ClickCounters />

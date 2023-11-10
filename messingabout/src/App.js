@@ -1,12 +1,19 @@
 import React from 'react';
-import BuckBunny from './Components/BuckBunny';
+import { Bunny } from './components/BuckBunny';
+import { Style } from './components/BuckBunny';
+import { ClickCounters } from'./components/ClickCounter';
+import NavBar from './components/NavBar';
+import './App.css';
 
 function App() {
   return (
     <div id="root">
+      <NavBar />
      <p>Hello New Friend</p>
-      <BuckBunny />
-        </div>
+      <Bunny />
+      <Style />
+      <ClickCounters />
+           </div>
     );
 };
 

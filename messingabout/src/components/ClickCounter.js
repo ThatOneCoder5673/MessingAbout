@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-const [count, setCount] = useState(0);
 
-  function ClickCounters() {
+  export function ClickCounters() {
+    const [count, setCount] = useState(0);
     return (
       <div style={{textAlign: "center"}}>
         <p>Total: {count}</p>

@@ -57,7 +57,6 @@
   .llogo {
     width: 60%;
     height: auto;
-    margin-top: 10px;
  
   }
   
@@ -119,6 +118,7 @@
    top: 0;
    z-index: 5;
    background-color: white;
+   margin-top: 10px;
   
  }
  .gmebar a {
@@ -151,8 +151,7 @@
    .searcharea {
     display: inline-flex;
     background-color: inherit;
-    float: none;
-    }
+       }
  
   .searchbutt {
     background-color: WhiteSmoke;
@@ -160,10 +159,7 @@
     font-size: 10px;
     border: none;
   }
- .gmebar a.split {
-   float: right;
-    }
- 
+  
  .cart {
    width: 24px;
    height: 8%;

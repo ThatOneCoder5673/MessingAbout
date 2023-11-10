@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 const [count, setCount] = useState(0);
-  function ClickCounter {
+
+  function ClickCounters() {
     return (
       <div style={{textAlign: "center"}}>
         <p>Total: {count}</p>
@@ -15,5 +16,5 @@ const [count, setCount] = useState(0);
           type="button"
           onClick={() => setCount((a) => a = 0)}>Reset</button>
             </div>
-    );
+    )
   }

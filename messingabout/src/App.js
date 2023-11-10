@@ -1,18 +1,14 @@
-import './App.css';
-import './BuckBunny.js';
-import './ClickCounter.js';
-import './NavBar.js';
 import React from 'react';
+import BuckBunny from './Components/BuckBunny';
 
 function App() {
   return (
     <div id="root">
-    <NavBars />
-    <ClickCounter />
-    <BuckBunny />
-                   </div>
+     <p>Hello New Friend</p>
+      <BuckBunny />
+        </div>
     );
-}
+};
 
 
 export default App;

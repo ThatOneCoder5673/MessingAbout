@@ -16,5 +16,5 @@ const [count, setCount] = useState(0);
           type="button"
           onClick={() => setCount((a) => a = 0)}>Reset</button>
             </div>
-    )
-  }
+    );
+  };

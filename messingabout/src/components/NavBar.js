@@ -14,15 +14,22 @@
     </div>
      <div className="gmebar">
       <div className="row">
-      <i className="minicons material-icons" style={{ paddingLeft: "10px", float: "left", color: "black", fontSize: "30px", wordWrap: "break-word"}}>menu</i>
-    <a style={{ fontFamily: "Poppins", fontSize: "12px" float: "left" }}>Menu</a>
+        {/* Menu */}
+      <i className="material-icons" style={{ paddingLeft: "10px", float: "left", color: "black", fontSize: "30px"}}>menu</i>
+    <a href=" " className="minicons">Menu</a>
+        {/* GME Logo */}
     <a className="minicons" href="https://www.gamestop.com/"><img className="llogo" alt="gmelogo" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw3fe7a996/images/svg-icons/logo-gs-mono.svg"/></a>
+       {/* Searchbar/Searcharea */}
        <div className="searcharea"><button className="searchbutt"><i className="material-icons">search</i></button>
     <input className="searchbar" type="text" autocomplete="on" placeholder="Search games, consoles & more"/></div>
+       {/* Trade */}
    <a className="split hideme minicons" href="https://www.gamestop.com/trade/"><i className="material-icons">repeat</i>Trade-In</a>
+   {/* GameStop Pro */}
     <a href="https://www.gamestop.com/pro/" className="split hideme lgcons"><button style={{ backgroundColor: "inherit", border: "none" }}><img className="cart" alt="regpic" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw5be8f0e6/images/svg-icons/gamestop-pro-icon.svg"/></button>GameStop Pro</a>
+    {/* Login */}
 <a href="https://www.gamestop.com/login/"
   className="split minicons"><button style={{ backgroundColor: "inherit", border: "none" }} ><i className="material-icons">person</i></button>{"\n"}Sign In</a>
+  {/* Cart */}
     <a href="https://www.gamestop.com/cart/" className="split minicons"><button style={{ backgroundColor: "inherit", border: "none" }}><img alt="cart" className="cart" src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3216541/shopping-cart-icon-md.png"/></button>{"\n"}Cart</a>
              </div>
              </div>

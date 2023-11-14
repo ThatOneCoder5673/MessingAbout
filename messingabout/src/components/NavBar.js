@@ -15,10 +15,10 @@
      <div className="gmebar">
       <div className="row">
         {/* Menu */}
-      <i className="material-icons" style={{ paddingLeft: "10px", float: "left", color: "black", fontSize: "30px"}}>menu</i>
-    <a href=" " className="minicons">Menu</a>
+        <a className="menucon"><i className="material-icons" style={{ marginRight: "0", paddingLeft: "10px", float: "left", color: "black", fontSize: "30px"}}>menu</i>
+    Menu</a>
         {/* GME Logo */}
-    <a className="minicons" href="https://www.gamestop.com/"><img className="llogo" alt="gmelogo" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw3fe7a996/images/svg-icons/logo-gs-mono.svg"/></a>
+    <img className="llogo" href="https://www.gamestop.com/" alt="gmelogo" src="https://www.gamestop.com/on/demandware.static/Sites-gamestop-us-Site/-/default/dw3fe7a996/images/svg-icons/logo-gs-mono.svg"/>
        {/* Searchbar/Searcharea */}
        <div className="searcharea"><button className="searchbutt"><i className="material-icons">search</i></button>
     <input className="searchbar" type="text" autocomplete="on" placeholder="Search games, consoles & more"/></div>

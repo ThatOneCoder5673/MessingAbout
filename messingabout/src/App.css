@@ -56,9 +56,15 @@
   
   }
   .llogo {
-    width: 60%;
-    height: auto;
- 
+    width: 10%;
+    height: 20%;
+    margin-right: 15px;
+    margin-left: 10px;
+    margin-top: 13px;
+    object-position: 0px 0px;
+    object-fit: cover;
+    float: left;
+    text-align: center;
   }
   
   .sidegray:hover {
@@ -149,10 +155,10 @@
    background-color: WhiteSmoke;
    color: grey;
    height: 28px;
-   overflow: hidden;
-   width: auto;
+   width: 300px;
    display: flex;
    flex-direction: row;
+   margin-top: 13px;
         }
 
    .searcharea {
@@ -164,8 +170,9 @@
   .searchbutt {
     background-color: WhiteSmoke;
     display: flex;
-    font-size: 10px;
+    font-size: 11px;
     border: none;
+    margin-top: 13px;
   }
   
  .cart {
@@ -376,6 +383,7 @@
   margin-right: 20px;
   color: black;
   width: 50px;
+  margin-bottom: 7px;
  }
  .lgcons {
   font-family: Poppins; 
@@ -386,5 +394,14 @@
   margin-right: 15px;
   color: black;
   width: 90px;
+ }
+ .menucon {
+  font-family: Poppins; 
+  font-size: 11px; 
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  width: 50px;
+  margin-bottom: 7px;
  }
  

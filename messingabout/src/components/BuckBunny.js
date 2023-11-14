@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
     export function Bunny() { 
       return (
@@ -7,8 +7,17 @@ import React from 'react';
     ); 
    };
     export function Style() {
+      const [style, showStyle] = useState(false);
+
+      function ShowOnClick(event) {
+        showStyle(!style);
+      }
+
       return (
-        <div>I'm a bunny</div>
+        <div>
+        <button onClick={ShowOnClick}>Show/Hide Me</button>
+        {style && <p>I'm a bunny</p>}
+        </div>
       );
     };
   
